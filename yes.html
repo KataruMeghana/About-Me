@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>YES</title>
+        <style>
+        body {
+            font-family:Verdana;
+            background-color: burlywood;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            margin:0;
+            position:relative;
+        }
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .button-container {
+            position: fixed;
+            bottom: 20px;
+            margin-top: 10px;
+            right:20px;
+            padding: 10px 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #eabdbd;
+            border-radius: 10px;
+        }
+        .text {
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            transform: translate(-20%, -20%);
+            font-size: 18px; 
+            font-weight: bold;
+           
+        }
+        </style>
+        <script>
+            function navigateTo(page) {
+                window.location.href = page;
+            }
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <img src="maggi2.jpg" alt="Photo of Meghana" style="width:100%">
+            <div class="text">                                    I'm Kataru Meghana, a dedicated student currently pursuing Computer Science at ANNAMACHARYA University,Rajampet. I'm particularly interested in Web Development,Java and Software Engineering, and I enjoy the challenge of solving complex problems through programming and I am always eager to learn new technologies. Outside of my studies, I have a passion for cooking, which I find to be a great way to relax and express my creativity and I also love listening to music.</div>
+        </div>
+        <div class="button-container">
+            <button type="button" onclick="navigateTo('one.html')">NEXT </button>
+        </div>
+    </body>
+</html>

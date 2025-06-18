@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MEGHANA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            
+            background-color: blanchedalmond;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            margin:0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .button-container {
+            display: flex;
+            gap: 10px; /* Space between buttons */
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 20px;
+
+        }
+        img {
+            max-width: 30%;
+            height: auto;
+            border: 2px solid #eabdbd;
+            border-radius: 10px;
+        }
+    </style>
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
+</head>
+<body>
+    <h1>Heyyy!Do You Wanna Know About me?</h1><br>
+    
+    <div class="container">
+        <img src="maggi.jpg" alt="Photo of Meghana">
+        <div class="button-container">
+            <button type="button" onclick="navigateTo('yes.html')">YES </button>
+            <button type="button" onclick="navigateTo('no.html')">NO</button>
+        </div>  
+    </div>
+</body>
+</html>
